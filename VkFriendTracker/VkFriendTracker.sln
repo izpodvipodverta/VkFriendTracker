@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkFriendTracker", "VkFriendTracker\VkFriendTracker.csproj", "{5FC48309-EA9D-41F0-9A34-A131139DD113}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VkFriendTracker", "VkFriendTracker\VkFriendTracker.csproj", "{5FC48309-EA9D-41F0-9A34-A131139DD113}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkCommunication", "VkCommunication\VkCommunication.csproj", "{31D701D5-FC78-40BC-9187-EEF4B1AE306D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VkCommunication", "VkCommunication\VkCommunication.csproj", "{31D701D5-FC78-40BC-9187-EEF4B1AE306D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{DBF21645-C3C7-4A9D-9411-99EBFF2245D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{DBF21645-C3C7-4A9D-9411-99EBFF2245D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{E51C2684-FFD1-4CB7-BC0F-0E68340D8825}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{E51C2684-FFD1-4CB7-BC0F-0E68340D8825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{8249B2FF-2AC6-4486-B409-D57E705AE21F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E51C2684-FFD1-4CB7-BC0F-0E68340D8825}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E51C2684-FFD1-4CB7-BC0F-0E68340D8825}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E51C2684-FFD1-4CB7-BC0F-0E68340D8825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8249B2FF-2AC6-4486-B409-D57E705AE21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8249B2FF-2AC6-4486-B409-D57E705AE21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8249B2FF-2AC6-4486-B409-D57E705AE21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8249B2FF-2AC6-4486-B409-D57E705AE21F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
