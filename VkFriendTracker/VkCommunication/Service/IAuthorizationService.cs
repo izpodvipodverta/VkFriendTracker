@@ -5,6 +5,6 @@ namespace VkCommunication.Service
 {
     public interface IAuthorizationService
     {
-        VkCollection<User> GetUserData(long profileId);
+        VkCollection<User> GetUserFriends(long profileId);
     }
 }

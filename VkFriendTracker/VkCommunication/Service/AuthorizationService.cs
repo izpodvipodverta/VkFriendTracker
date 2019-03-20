@@ -33,7 +33,7 @@ namespace VkCommunication.Service
             }
         }
 
-        public VkCollection<User> GetUserData(long profileId) => _apiProxy.Friends.Get(new FriendsGetParams()
+        public VkCollection<User> GetUserFriends(long profileId) => _apiProxy.Friends.Get(new FriendsGetParams()
         {
             UserId = profileId,
             Fields = ProfileFields.Sex
